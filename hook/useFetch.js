@@ -7,7 +7,7 @@ const useFetch = (endpoint, query) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const rapidApiKey = "aa841d174amsha1b84cdc0e7de94p1f02c2jsnae020f0b5456";
+  const rapidApiKey = "";
   const options = {
     method: "GET",
     url: `https://jsearch.p.rapidapi.com/${endpoint}`,
